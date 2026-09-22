@@ -7,4 +7,22 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
+<body>
+    <header>
+        <h1>タスク管理アプリ</h1>
+    </header>
+    <label for="task">タスクを入力する</label>
+    <input type="text" id="task" name="task">
+    <button commandfor="date-dialog" command="show-modal">日程と時刻を選択する</button>
+    <dialog id="date-dialog">
+        <header>日程と時刻を設定してください</header>
+        <label for="deadline">期限</label>
+        <input type="date" id="deadline" name="deadline">
+        <input type="time" id="deadline-time" name="deadline-time">
+        <button id="submit">登録する</button>
+    </dialog>
+    <ul>
+
+    </ul>
+</body>
 </html>
