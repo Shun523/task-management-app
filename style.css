@@ -6,3 +6,7 @@ textarea {
   padding: 8px;
   margin-top: 8px;
 }
+
+span{
+    width: 100%;
+}
